@@ -1,6 +1,12 @@
 advent_of_code::solution!(1);
 
 pub fn part_one(input: &str) -> Option<u32> {
+    let lines = input.split("\n");
+    let mut sum = 0;
+    for line in lines {
+        println!("{line}");
+    }
+
     None
 }
 
